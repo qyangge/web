@@ -1,0 +1,108 @@
+body {
+       background-color: #2F3242;
+       background-color: #fff;
+       color:#333;
+     }
+svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -250px;
+  margin-left: -400px;
+}
+.message-box {
+  height: 200px;
+  width: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -150px;
+  margin-left: 50px;
+  font-family: Roboto;
+  font-weight: 300;
+}
+.message-box h1 {
+  font-size: 77px;
+  line-height: 77px;
+  margin-bottom: 77px;
+}
+.buttons-con .action-link-wrap {
+  margin-top: 40px;
+  font-family:microsoft yahei;
+}
+
+#gohome {
+  background: #A0DAD0;
+  color: #333;
+}
+
+.buttons-con .action-link-wrap a {
+  padding:10px 30px;
+border:1px solid #A0DAD0;
+color:#A0DAD0;
+color:#333;
+-webkit-border-radius: 50px;
+-moz-border-radius: 50px;
+border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.buttons-con .action-link-wrap a:hover {
+  -webkit-box-shadow: 0 0 4px rgba(117, 247, 211, 0.85);
+-moz-box-shadow: 0 0 4px rgba(117, 247, 211, 0.85);
+-o-box-shadow: 0 0 4px rgba(117, 247, 211, 0.85);
+box-shadow: 0 0 4px rgba(117, 247, 211, 0.85);
+}
+
+#Polygon-1 , #Polygon-2 , #Polygon-3 , #Polygon-4 , #Polygon-4, #Polygon-5 {
+  -webkit-animation: float 1s infinite ease-in-out alternate;
+          animation: float 1s infinite ease-in-out alternate;
+}
+#Polygon-2 {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s; 
+}
+#Polygon-3 {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s; 
+}
+#Polygon-4 {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s; 
+}
+#Polygon-5 {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s; 
+}
+
+@-webkit-keyframes float {
+	100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+
+@keyframes float {
+	100% {
+    -webkit-transform: translateY(20px);
+            transform: translateY(20px);
+  }
+}
+@media (max-width: 450px) {
+  svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -190px;
+  }
+  .message-box {
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -190px;
+    text-align: center;
+  }
+}
