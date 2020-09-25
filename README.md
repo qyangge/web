@@ -1,2 +1,2 @@
 # web
-nodejs + vuejs 试玩
+cdn加速
