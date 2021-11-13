@@ -1,4 +1,4 @@
-charset"utf-8";
+@charset"utf-8";
 /*
 
 背景色 #000000
@@ -16,10 +16,10 @@ charset"utf-8";
     --main-info-color: #171717;
     --main-text-color: #c1c1c1;
     --br-color: #131313;
-  --img-br: #3c3c3c;
+    --img-br: #3c3c3c;
 }
 
-/* 夜间模式 */
+/* 夜间模式 */ 
 @media ( prefers-color-scheme: dark ) {
     ::-webkit-scrollbar-track {
         background: var(--main-bg-color);
@@ -32,7 +32,7 @@ charset"utf-8";
     }
     .s-content, #mo-nav .m-search form {
         background: var(--main-info-color);
-      }
+    }
     .notice {
         background: var(--main-info-color);
         color: #afafaf;
@@ -48,7 +48,7 @@ charset"utf-8";
     }
     .lower li ul, .user_inner ul, .fytx_alert_background .fytx_alert_box {
         background: var(--main-info-color);
-      box-shadow: 0px 0px 4px rgb(0 0 0 / 36%);
+        box-shadow: 0px 0px 4px rgb(0 0 0 / 36%);
     }
     .site-top ul li a, .entry-title a, #mo-nav ul li a, .fytx_alert_background .fytx_alert_box {
         color: var(--main-text-color);
@@ -65,7 +65,7 @@ charset"utf-8";
     }
     .site-footer {
         border-top: 1px solid var(--br-color);
-      }
+    }
     .feature img, .postava img, #pagination a, .nextStop, .author-profile .pf-tou img {
         border: 1px solid var(--img-br);
     }
@@ -81,7 +81,7 @@ charset"utf-8";
     #toc-container {
         border: 1px dashed var(--img-br);
     }
-  .entry-content p, #toc strong, #toc-container a, h1.entry-title, .entry-content h2, .donate a, .post-share, .show-share {
+    .entry-content p, #toc strong, #toc-container a, h1.entry-title, .entry-content h2, .donate a, .post-share, .show-share {
         color: var(--main-text-color);
     }
     .entry-header hr {
@@ -96,7 +96,7 @@ charset"utf-8";
     }
     .open-message, .comment-respond #cancel-comment-reply-link, .entry-content h3 {
         background-color: var(--main-info-color);
-      color: var(--main-text-color);
+        color: var(--main-text-color);
     }
     .entry-content h3 {
         border-left: 5px solid #4c9aaf;
@@ -112,7 +112,7 @@ charset"utf-8";
         box-shadow: 0px 0px 4px rgb(0 0 0 / 36%);
         border: 1px solid var(--main-info-color);
     }
-  .donate_inner:after, .donate_inner:before {
+    .donate_inner:after, .donate_inner:before {
         border-right: 8px solid var(--main-info-color);
     }
     .comment .commeta, #comments-navi {
@@ -127,7 +127,7 @@ charset"utf-8";
         color: var(--main-text-color);
     }
     .notification {
-      background: var(--main-info-color);
+        background: var(--main-info-color);
         color: var(--main-text-color);
         border: 1px solid var(--img-br);
     }
@@ -143,7 +143,7 @@ charset"utf-8";
     }
     .OwO .OwO-body .OwO-bar .OwO-packages .OwO-package-active, .OwO .OwO-body .OwO-items .OwO-item {
         background: var(--img-br);
-      }
+    }
     .OwO-items::-webkit-scrollbar-track, :not(pre) > code[class*="language-"], pre[class*="language-"] {
         background: var(--main-info-color);
     }
@@ -160,7 +160,7 @@ charset"utf-8";
     }
     .links ul li {
         border: 1px solid var(--br-color);
-      }
+    }
     .linkdes {
         border-top: 1px dashed var(--img-br);
     }
@@ -168,7 +168,7 @@ charset"utf-8";
         background-color: var(--main-info-color);
         color: var(--main-text-color);
     }
-  input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {
+    input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="range"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="time"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="color"]:focus, textarea:focus {
         color: var(--main-text-color);
     }
     pre[class*="language-"]::-webkit-scrollbar-thumb {
